@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "14948190-2442-44fc-bee9-c775611fb4a5")
+	(paper "A4")
+	(title_block
+		(title "Mechanical Keyboard")
+		(date "2025-11-03")
+		(rev "A")
+	)
+	(lib_symbols)
+)

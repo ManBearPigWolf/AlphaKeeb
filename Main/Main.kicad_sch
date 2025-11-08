@@ -1,0 +1,1607 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "432eeaeb-5c19-4b62-9914-84847c26b6b8")
+	(paper "USLedger")
+	(title_block
+		(title "Mechanical Keyboard")
+		(date "2025-11-03")
+		(rev "A")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 228.6 101.6)
+		(end 381 228.6)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2f51f5d4-6cdc-40e0-b8c5-bda9121ff67c)
+	)
+	(rectangle
+		(start 63.5 19.05)
+		(end 381 96.52)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7d99f7c3-9e87-4a32-8925-e2b11850d1fc)
+	)
+	(rectangle
+		(start 63.5 101.6)
+		(end 203.2 228.6)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ed5b1062-bc1f-471a-a061-c4640981148d)
+	)
+	(text "FRONT-END"
+		(exclude_from_sim no)
+		(at 63.246 18.542 0)
+		(effects
+			(font
+				(face "Comic Sans MS")
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "3dddb0af-53d8-47cf-8f32-2297153e6420")
+	)
+	(text "USB"
+		(exclude_from_sim no)
+		(at 304.8 36.83 0)
+		(effects
+			(font
+				(face "Comic Sans MS")
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4a552f52-ad5e-4020-bb8e-17496a6e3724")
+	)
+	(text "USB"
+		(exclude_from_sim no)
+		(at 133.35 36.83 0)
+		(effects
+			(font
+				(face "Comic Sans MS")
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4df20f2a-36cd-49a9-af46-dfb2dc62f8d7")
+	)
+	(text "PERIPHERALS"
+		(exclude_from_sim no)
+		(at 63.754 231.648 0)
+		(effects
+			(font
+				(face "Comic Sans MS")
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "532be03e-53ab-43a2-aafc-cd598e5afb50")
+	)
+	(text "5VDC\n1000mA"
+		(exclude_from_sim no)
+		(at 197.104 75.946 0)
+		(effects
+			(font
+				(face "Comic Sans MS")
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "556c29af-d06c-4948-87c8-b00a20eaacc1")
+	)
+	(text "Serial"
+		(exclude_from_sim no)
+		(at 292.862 146.558 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e29f1d2-48ba-40b2-98b3-67b14e7c0269")
+	)
+	(text "USB 3.1 4 PORT CONTROLLER\nINPUT: TYPE C\nOUTPUT: 2 x TYPE C, 2 x USB A 2.0\nIC: USB7002T-I/KDX"
+		(exclude_from_sim no)
+		(at 217.17 38.354 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "83ffe399-5fdc-4204-bdef-9567197223a6")
+	)
+	(text "12VDC\n500mA"
+		(exclude_from_sim no)
+		(at 165.1 76.2 0)
+		(effects
+			(font
+				(face "Comic Sans MS")
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "866a37d5-0c19-4c49-a5f2-b9df619b5c2a")
+	)
+	(text "3.3VDC\n500mA"
+		(exclude_from_sim no)
+		(at 234.442 76.2 0)
+		(effects
+			(font
+				(face "Comic Sans MS")
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b637dabd-4f0c-4436-88c9-b3b5714fa7ab")
+	)
+	(text "KEYBOARD"
+		(exclude_from_sim no)
+		(at 228.854 231.648 0)
+		(effects
+			(font
+				(face "Comic Sans MS")
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "bae9ceeb-deef-4002-b39a-07eea7e19bb3")
+	)
+	(text "1.2VDC\n500mA"
+		(exclude_from_sim no)
+		(at 266.7 76.2 0)
+		(effects
+			(font
+				(face "Comic Sans MS")
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d2c4a0c5-e2ef-4d1e-b8f4-532f1100ff3f")
+	)
+	(text "USB\nHOST"
+		(exclude_from_sim no)
+		(at 38.1 22.352 0)
+		(effects
+			(font
+				(face "Comic Sans MS")
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "f7e52b3e-2406-4d22-9bf4-6802a8d5ba2f")
+	)
+	(polyline
+		(pts
+			(xy 266.7 62.23) (xy 266.7 52.07)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "01dd4df8-90de-4536-9295-e7898df87084")
+	)
+	(polyline
+		(pts
+			(xy 234.95 52.07) (xy 236.22 53.34)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "085badca-7e94-42f0-a2ff-03aacc3acfd1")
+	)
+	(polyline
+		(pts
+			(xy 115.57 38.1) (xy 118.11 35.56)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "08a7b39c-4305-44f5-923a-fa4c185fdfcd")
+	)
+	(polyline
+		(pts
+			(xy 139.7 76.2) (xy 151.13 76.2)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "0ce17292-fdc6-4286-8826-d2c98c53bb48")
+	)
+	(polyline
+		(pts
+			(xy 266.7 52.07) (xy 267.97 53.34)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "0e4a0002-7ecc-42a4-bca3-b6e35a82ae12")
+	)
+	(polyline
+		(pts
+			(xy 212.09 176.53) (xy 166.37 176.53)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "108d6a9d-5c4a-4805-ab9f-73100424f4ed")
+	)
+	(polyline
+		(pts
+			(xy 265.43 53.34) (xy 266.7 52.07)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "138257ee-845d-4e78-be66-41ce55b16825")
+	)
+	(polyline
+		(pts
+			(xy 133.35 54.61) (xy 196.85 54.61)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "185a32f5-a0f0-488a-8b28-79062c58793b")
+	)
+	(polyline
+		(pts
+			(xy 220.98 138.43) (xy 220.98 176.53)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "1c991ecd-c7e3-4fb3-817d-d3f3c8d5379d")
+	)
+	(polyline
+		(pts
+			(xy 38.1 25.4) (xy 40.64 27.94)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "1cd45fc6-2ccc-4842-84db-5bb604950677")
+	)
+	(polyline
+		(pts
+			(xy 302.26 110.49) (xy 304.8 113.03)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "2163d4d7-584a-4fff-b206-d4703dbecdb8")
+	)
+	(polyline
+		(pts
+			(xy 115.57 46.99) (xy 133.35 46.99)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "2ed1e83a-9737-493c-9251-4e27ad22a40b")
+	)
+	(polyline
+		(pts
+			(xy 196.85 62.23) (xy 199.39 59.69)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "2ee8c8e1-f0bc-4eee-96ac-f67a6b013819")
+	)
+	(polyline
+		(pts
+			(xy 280.67 38.1) (xy 283.21 35.56)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "3187ba84-e8c7-4291-a536-aa4bc41d3f89")
+	)
+	(polyline
+		(pts
+			(xy 35.56 27.94) (xy 38.1 25.4)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "31e9ea29-1976-476d-95e5-220aaabe5595")
+	)
+	(polyline
+		(pts
+			(xy 254 63.5) (xy 254 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3570c001-47cd-43b6-b63c-98bd666d093c")
+	)
+	(polyline
+		(pts
+			(xy 353.06 130.81) (xy 355.6 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c19f214-a513-4b62-ad9e-bd0f09cadcd3")
+	)
+	(polyline
+		(pts
+			(xy 304.8 113.03) (xy 307.34 110.49)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "3e88081e-78b0-4491-8293-238b9502c5af")
+	)
+	(polyline
+		(pts
+			(xy 344.17 120.65) (xy 355.6 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "400dce45-131f-4255-8261-bf0099616a1c")
+	)
+	(polyline
+		(pts
+			(xy 326.39 78.74) (xy 328.93 76.2)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "45fd168e-379e-4e99-89ac-65f650343c8e")
+	)
+	(polyline
+		(pts
+			(xy 215.9 63.5) (xy 215.9 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47ccd282-0ba7-4707-8e77-e8072d525b70")
+	)
+	(polyline
+		(pts
+			(xy 148.59 35.56) (xy 151.13 38.1)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "4979fdc3-3457-4e1c-a313-56689f7d68b5")
+	)
+	(polyline
+		(pts
+			(xy 237.49 173.99) (xy 240.03 176.53)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "4c6ff652-e42b-42bd-aaae-912d7a894c7a")
+	)
+	(polyline
+		(pts
+			(xy 240.03 138.43) (xy 237.49 135.89)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "4e45df63-41c8-4e55-be8e-cb8af14484b6")
+	)
+	(polyline
+		(pts
+			(xy 237.49 212.09) (xy 240.03 214.63)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "4e91a24d-1786-4df4-9fc3-549723c53608")
+	)
+	(polyline
+		(pts
+			(xy 234.95 62.23) (xy 234.95 52.07)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "4ea00361-ad48-41de-8cdb-3e3c685c3b3a")
+	)
+	(polyline
+		(pts
+			(xy 220.98 90.17) (xy 220.98 138.43)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "550aa163-0590-41c4-9980-a94f467acafb")
+	)
+	(polyline
+		(pts
+			(xy 166.37 214.63) (xy 168.91 212.09)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "55931997-83b8-4fa3-a8bc-c80429f9344a")
+	)
+	(polyline
+		(pts
+			(xy 353.06 118.11) (xy 355.6 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57bc721c-3d03-4ef0-8c8d-e6b1b93d5102")
+	)
+	(polyline
+		(pts
+			(xy 220.98 176.53) (xy 240.03 176.53)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "59922caf-40ae-4496-8cbe-fa1f42d37330")
+	)
+	(polyline
+		(pts
+			(xy 344.17 203.2) (xy 346.71 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a9f7c6d-0f10-4449-9642-a5c4165ddf23")
+	)
+	(polyline
+		(pts
+			(xy 304.8 38.1) (xy 304.8 76.2)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "5c36d109-611d-4785-9f25-eb4d3e99c8b3")
+	)
+	(polyline
+		(pts
+			(xy 353.06 111.76) (xy 355.6 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cdf17bb-a582-45bb-b3ca-e9dd8642c122")
+	)
+	(polyline
+		(pts
+			(xy 139.7 76.2) (xy 139.7 111.76)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "5ed3b526-04d5-4f64-8c30-af660cfcae20")
+	)
+	(polyline
+		(pts
+			(xy 166.37 165.1) (xy 168.91 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f5d8c78-dada-4261-954a-b92540773394")
+	)
+	(polyline
+		(pts
+			(xy 166.37 203.2) (xy 168.91 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "633ba752-8149-4619-927a-dfef42b18e1a")
+	)
+	(polyline
+		(pts
+			(xy 304.8 76.2) (xy 304.8 113.03)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "637bbf0c-475f-405b-8775-ee9172e41b0e")
+	)
+	(polyline
+		(pts
+			(xy 344.17 133.35) (xy 355.6 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6496e191-a0a5-44e1-87ea-7187937aca0a")
+	)
+	(polyline
+		(pts
+			(xy 326.39 73.66) (xy 328.93 76.2)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "7047c8c2-5cdc-4f27-b6e9-98c12b725a0b")
+	)
+	(polyline
+		(pts
+			(xy 289.56 143.51) (xy 292.1 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75ac877f-2994-4375-8b96-a26788cfd551")
+	)
+	(polyline
+		(pts
+			(xy 166.37 203.2) (xy 177.8 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "768306fb-8189-43ab-bf55-b50161931c02")
+	)
+	(polyline
+		(pts
+			(xy 85.09 40.64) (xy 87.63 38.1)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "7a8b5a23-4df3-472f-89ff-eccc2ee98ae3")
+	)
+	(polyline
+		(pts
+			(xy 344.17 127) (xy 355.6 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eadddf0-4b86-4e7d-b159-c21ac3751076")
+	)
+	(polyline
+		(pts
+			(xy 133.35 46.99) (xy 133.35 54.61)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "85bdc1d5-ec1f-4c54-93bb-4bb583d741fb")
+	)
+	(polyline
+		(pts
+			(xy 212.09 214.63) (xy 166.37 214.63)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "86b442de-c4c3-419a-b2e5-1f33f49f710f")
+	)
+	(polyline
+		(pts
+			(xy 280.67 38.1) (xy 283.21 40.64)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "87bf945b-bd6c-4642-8933-7b437bdeb20e")
+	)
+	(polyline
+		(pts
+			(xy 166.37 127) (xy 177.8 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88dec547-f432-4f5c-974e-33420d2bc716")
+	)
+	(polyline
+		(pts
+			(xy 355.6 203.2) (xy 344.17 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "897445e7-627b-4a2e-9355-f1954f672092")
+	)
+	(polyline
+		(pts
+			(xy 292.1 140.97) (xy 294.64 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ab2d506-459b-4cb4-a22c-b7f4d09dbee0")
+	)
+	(polyline
+		(pts
+			(xy 326.39 40.64) (xy 328.93 38.1)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "8b42b9ae-a30e-458c-b18a-ea25eef57638")
+	)
+	(polyline
+		(pts
+			(xy 355.6 139.7) (xy 355.6 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bfa63c7-635a-41c8-bb1c-2425e0a2b58f")
+	)
+	(polyline
+		(pts
+			(xy 85.09 35.56) (xy 87.63 38.1)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "968b135d-d38f-4c4c-9c7c-71089460f5f9")
+	)
+	(polyline
+		(pts
+			(xy 115.57 38.1) (xy 151.13 38.1)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "97d2bdad-8c8b-42a0-a969-be1699aab04c")
+	)
+	(polyline
+		(pts
+			(xy 166.37 127) (xy 168.91 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a9e5beb-f3ba-4423-bd9b-c93861887c8f")
+	)
+	(polyline
+		(pts
+			(xy 304.8 76.2) (xy 328.93 76.2)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "9c5bbc2b-a1cb-4fc8-9367-0c3a52f9a2e9")
+	)
+	(polyline
+		(pts
+			(xy 280.67 38.1) (xy 328.93 38.1)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "9f03466b-14e0-4277-bdd9-016eb9d6a2fc")
+	)
+	(polyline
+		(pts
+			(xy 148.59 40.64) (xy 151.13 38.1)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "aa5b8625-5e92-4be8-b6f2-fcf769b175d3")
+	)
+	(polyline
+		(pts
+			(xy 166.37 176.53) (xy 168.91 179.07)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "aa863252-02a4-4b99-9f71-922cf88e2c41")
+	)
+	(polyline
+		(pts
+			(xy 353.06 129.54) (xy 355.6 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acba0e07-04fb-40b9-88f7-e28c15fe1736")
+	)
+	(polyline
+		(pts
+			(xy 194.31 59.69) (xy 196.85 62.23)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "b6a604fd-6d0f-44d2-aa36-5b917149a232")
+	)
+	(polyline
+		(pts
+			(xy 220.98 138.43) (xy 240.03 138.43)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "b86919c1-09b3-453e-9258-968fd5ad90b6")
+	)
+	(polyline
+		(pts
+			(xy 353.06 135.89) (xy 355.6 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b93612f6-bd8b-4e3a-84cb-6f32e2807d05")
+	)
+	(polyline
+		(pts
+			(xy 237.49 179.07) (xy 240.03 176.53)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "bf29f318-ee77-4033-8cf7-eb73ed437857")
+	)
+	(polyline
+		(pts
+			(xy 344.17 114.3) (xy 355.6 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfed5a36-6bc1-4dfa-b600-fe2715c43ddd")
+	)
+	(polyline
+		(pts
+			(xy 166.37 165.1) (xy 168.91 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1bebc29-b0aa-497c-9c88-ce441dd5a0f7")
+	)
+	(polyline
+		(pts
+			(xy 139.7 111.76) (xy 142.24 109.22)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "c2a81647-9643-4699-9ac7-9b8725384afb")
+	)
+	(polyline
+		(pts
+			(xy 177.8 63.5) (xy 177.8 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3f3b055-3586-4834-82c3-a7e972d16c70")
+	)
+	(polyline
+		(pts
+			(xy 166.37 214.63) (xy 168.91 217.17)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "c45becc2-0dfe-4fb9-be48-fa7129da958e")
+	)
+	(polyline
+		(pts
+			(xy 38.1 38.1) (xy 38.1 25.4)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "c501c21f-2a59-4c4f-b3f0-5a6023b33ea0")
+	)
+	(polyline
+		(pts
+			(xy 166.37 127) (xy 168.91 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c59d50f8-b113-442d-bf92-5e32ff45e0d0")
+	)
+	(polyline
+		(pts
+			(xy 353.06 124.46) (xy 355.6 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9d01e8c-3f0d-4ebb-8754-270d62893c1b")
+	)
+	(polyline
+		(pts
+			(xy 237.49 217.17) (xy 240.03 214.63)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "c9ec958e-22bd-4579-b696-db034d50d72b")
+	)
+	(polyline
+		(pts
+			(xy 137.16 109.22) (xy 139.7 111.76)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "cb1ebb81-1ea9-45b3-a935-ed072c1f2cb1")
+	)
+	(polyline
+		(pts
+			(xy 237.49 140.97) (xy 240.03 138.43)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "cecb0b2d-e66f-47cc-989d-80073da39a4f")
+	)
+	(polyline
+		(pts
+			(xy 166.37 176.53) (xy 168.91 173.99)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "d0f1d311-4902-4903-85b1-f2c7b915bdb7")
+	)
+	(polyline
+		(pts
+			(xy 115.57 38.1) (xy 118.11 40.64)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "d5398c4b-1666-4023-b3e1-5222bbc6fd17")
+	)
+	(polyline
+		(pts
+			(xy 166.37 165.1) (xy 177.8 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d97511b5-d36f-4313-b638-1d4bc6ad6441")
+	)
+	(polyline
+		(pts
+			(xy 212.09 214.63) (xy 240.03 214.63)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "dcb09229-c1c5-4558-81e6-7ab6191ad510")
+	)
+	(polyline
+		(pts
+			(xy 38.1 38.1) (xy 87.63 38.1)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "e1857226-c232-4a15-a5bd-a434c83b659a")
+	)
+	(polyline
+		(pts
+			(xy 292.1 151.13) (xy 292.1 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6378268-15f3-4d91-9f47-2607698558f5")
+	)
+	(polyline
+		(pts
+			(xy 353.06 123.19) (xy 355.6 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea783a60-44a2-4811-b47b-26a82e6e23b1")
+	)
+	(polyline
+		(pts
+			(xy 233.68 53.34) (xy 234.95 52.07)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "ef0ce0cd-d30a-4010-b6f4-7ffee91a8c1e")
+	)
+	(polyline
+		(pts
+			(xy 326.39 35.56) (xy 328.93 38.1)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "f0032740-2f4a-431f-b9f0-633f64f6b1c8")
+	)
+	(polyline
+		(pts
+			(xy 212.09 90.17) (xy 212.09 214.63)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "f53d5ffd-acbd-4e70-ab24-03c548652efd")
+	)
+	(polyline
+		(pts
+			(xy 344.17 203.2) (xy 346.71 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f70f1e0d-cd49-4d5e-b4ef-b1b1fe7dc3c9")
+	)
+	(polyline
+		(pts
+			(xy 166.37 203.2) (xy 168.91 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f88743c8-a21f-4e5e-8ea6-a68a92f56d47")
+	)
+	(polyline
+		(pts
+			(xy 344.17 139.7) (xy 355.6 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8a2a31f-d27c-432b-8704-2f5e9ec914df")
+	)
+	(polyline
+		(pts
+			(xy 196.85 54.61) (xy 196.85 62.23)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "fb9594cb-0e74-4735-b9d3-42271e21714a")
+	)
+	(polyline
+		(pts
+			(xy 353.06 116.84) (xy 355.6 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff46e009-5241-46ad-99af-4adc601b5575")
+	)
+	(sheet
+		(at 152.4 63.5)
+		(size 127 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0d59c282-e979-46f7-b765-1d484890f5cb")
+		(property "Sheetname" "Power Stage"
+			(at 152.4 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power Stage.kicad_sch"
+			(at 152.4 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main"
+				(path "/432eeaeb-5c19-4b62-9914-84847c26b6b8"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 25.4)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4ab7d268-9e9d-4067-a166-fbe20755a4b6")
+		(property "Sheetname" "Type C Input"
+			(at 88.9 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Type C Input.kicad_sch"
+			(at 88.9 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main"
+				(path "/432eeaeb-5c19-4b62-9914-84847c26b6b8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 330.2 63.5)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "509d05f6-4fc8-4e49-9e73-648e1060e291")
+		(property "Sheetname" "USB A Output"
+			(at 330.2 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB A Output.kicad_sch"
+			(at 330.2 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main"
+				(path "/432eeaeb-5c19-4b62-9914-84847c26b6b8"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 25.4)
+		(size 127 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "523aeb3d-3d3e-48d0-b9e5-76181bd18eb4")
+		(property "Sheetname" "USB Hub Controller"
+			(at 152.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB Hub.kicad_sch"
+			(at 152.4 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main"
+				(path "/432eeaeb-5c19-4b62-9914-84847c26b6b8"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 152.4)
+		(size 88.9 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5e575c02-cbc2-49a0-b1a5-e6949467e01e")
+		(property "Sheetname" "E-ink"
+			(at 76.2 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "E-ink.kicad_sch"
+			(at 76.2 178.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main"
+				(path "/432eeaeb-5c19-4b62-9914-84847c26b6b8"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 241.3 190.5)
+		(size 101.6 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "695b734f-f146-4d9f-94d9-30e7cbd2a189")
+		(property "Sheetname" "LED"
+			(at 241.3 189.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LED.kicad_sch"
+			(at 241.3 216.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main"
+				(path "/432eeaeb-5c19-4b62-9914-84847c26b6b8"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 190.5)
+		(size 88.9 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "87d489a7-dd30-4688-b20a-19015a833e03")
+		(property "Sheetname" "Capacitive Touch"
+			(at 76.2 189.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Capacitive Touch.kicad_sch"
+			(at 76.2 216.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main"
+				(path "/432eeaeb-5c19-4b62-9914-84847c26b6b8"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 241.3 152.4)
+		(size 101.6 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "91fadf05-42c5-44c8-a19e-a7c5db9132ec")
+		(property "Sheetname" "Keyswitches"
+			(at 241.3 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Keyswitches.kicad_sch"
+			(at 241.3 178.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main"
+				(path "/432eeaeb-5c19-4b62-9914-84847c26b6b8"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 330.2 25.4)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "adb38be7-3301-48b8-81b4-0ebbf33d28ea")
+		(property "Sheetname" "Type C Output"
+			(at 330.2 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Type C Output.kicad_sch"
+			(at 330.2 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main"
+				(path "/432eeaeb-5c19-4b62-9914-84847c26b6b8"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 241.3 114.3)
+		(size 101.6 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d91f6e7e-e5ab-4a50-8844-e908a3fcdbb7")
+		(property "Sheetname" "MicroController"
+			(at 241.3 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MicroController.kicad_sch"
+			(at 241.3 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main"
+				(path "/432eeaeb-5c19-4b62-9914-84847c26b6b8"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 114.3)
+		(size 88.9 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f1ebb06d-f08a-4e74-9d42-9ec401141922")
+		(property "Sheetname" "Haptic Knob"
+			(at 76.2 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Haptic Knob.kicad_sch"
+			(at 76.2 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main"
+				(path "/432eeaeb-5c19-4b62-9914-84847c26b6b8"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

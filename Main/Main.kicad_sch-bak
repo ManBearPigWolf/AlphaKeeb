@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "432eeaeb-5c19-4b62-9914-84847c26b6b8")
+	(paper "USLedger")
+	(title_block
+		(title "Mechanical Keyboard")
+		(date "2025-11-03")
+		(rev "A")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
